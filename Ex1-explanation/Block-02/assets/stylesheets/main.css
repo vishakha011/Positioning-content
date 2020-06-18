@@ -47,44 +47,7 @@ table {
 }
 
 
-/*
-=============================================================
-Clearfix
-=============================================================
-*/
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
-}
 
-.clearfix:after {
-  clear: both;
-}
-
-.clearfix {
-  clear: both;
-  *zoom: 1;
-}
-
-/*
-=============================================================
-Grid
-=============================================================
-*/
-
-*,
-*:before.
-*:after {
-  box-sizing: border-box;
-}
-
-.container {
-  margin: 0 auto;
-  width: 1080px;
-  /* padding-left: 30px; */
-  padding-right: 30px;
-}
 
 /*
 =============================================================
@@ -100,8 +63,20 @@ footer {
   background-color: #000;
 }
 
+.container {
+  margin: 0 auto;
+  width: 1080px;
+  /* padding-left: 30px; */
+  /* padding-right: 30px; */
+} 
+
+.container a {
+  text-decoration: none;
+}
+
 .logo {
-  float: left;
+  display: inline-block;
+  /* float: left; */
   font-size: 45px;
   font-weight: 800;
   line-height: 30px;
@@ -117,8 +92,10 @@ footer {
   font-weight: 400;
   color: white;
   padding-top: 50px;
+  margin-left: 335px;
   letter-spacing:  .5px;
   text-transform: uppercase;
+  display: inline-block;
 }
 
 h1 {
@@ -126,11 +103,6 @@ h1 {
   font-size: 36px;
   line-height: 44px;
 } 
-
-.nav {
-  text-align: right;
- 
-}
 
 .nav li {
   display: inline-block;
@@ -149,7 +121,7 @@ article {
 }
 
 .intro {
-  margin-top: 80px;
+  margin-top: 70px;
   display: inline-block;
 } 
 
@@ -160,8 +132,13 @@ article {
 }
 
 .section-1 {
-  float: left;
+  /* float: left; */
   width: 40%;
+  vertical-align: top;
+}
+
+.section-2 {
+  width: 50%;
 }
 
 h2 {
@@ -169,7 +146,7 @@ h2 {
   color: white;
   text-align: center;
   margin-top: 120px;
-  padding-bottom: 80px;
+  padding-bottom: 70px;
   line-height: 40px;
   word-spacing: .7px;
   /* text-transform: uppercase; */
@@ -188,10 +165,6 @@ p {
   padding-top: 80px;
   font-size: 40px;
   font-family: 'Dancing Script', cursive; 
-}
-
-.section-2 {
-  width: 50%;
 }
 
 img {
@@ -218,5 +191,3 @@ small {
   font-weight: 400;
   margin-left: 40px;
 }
-
-

@@ -86,59 +86,47 @@ Custom styles
 */
 
 body {
-    background-color: #F3F4F7;
-    font-family: 'Martel', serif;
+  background-color: #F3F4F7;
+  font-family: 'Martel', serif;
 }
 
 .container {
-    margin: 0 auto;
-    width: 1250px;
-    /* padding-left: 30px; */
-    padding-right: 30px;
+  margin: 0 auto;
+  width: 1250px;
+  padding-right: 30px;
   }
 
 .logo {
-    float: left;
-    font-size: 45px;
-    font-weight: 800;
-    color: black;
-    line-height: 30px;
-    margin-left: 40px;
-    padding: 40px 0 22px 0;
-    letter-spacing:  .5px;
-    /* border: 1px solid white; */
-    /* text-transform: uppercase; */
-  }
+  float: left;
+  font-size: 45px;
+  color: black;
+  line-height: 30px;
+  margin-left: 40px;
+  padding: 40px 0 22px 0;
+  letter-spacing:  .5px;
+}
 
-  #pink {
-      color: #FD7792;
-  }
+#pink {
+  color: #FD7792;
+}
   
-  .primary-nav {
-    font-size: 20px;
-    font-weight: 400;
-    color: black;
-    padding-top: 50px;
-    letter-spacing:  .5px;
-    /* text-transform: uppercase; */
-  }
+.primary-nav {
+  font-size: 20px;
+  padding-top: 50px;
+  text-align: right;
+  letter-spacing:  .5px;
+ }
   
-  h1 {
-    margin-bottom: 22px;
-    font-size: 36px;
-    line-height: 44px;
-  } 
+h1 {
+  margin-bottom: 22px;
+  font-size: 36px;
+  line-height: 44px;
+} 
   
-  .nav {
-    text-align: right;
-   
-  }
-  
-  .nav li {
-    display: inline-block;
-    margin: 0 10px;
-    vertical-align: top;
-  }
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
   
 /*
 =============================================================
@@ -147,25 +135,25 @@ Main Section
 */
 
 .hero {
-    background-color: #577088;
-    width: 100%;
-    text-align: center;  
+  background-color: #577088;
+  width: 100%;
+  text-align: center;  
 }
 
 h2 {
-    font-size: 30px;
-    font-weight: 500;
-    color: white;
-    padding: 45px 0 18px;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  padding: 45px 0 18px;
 }
 .hero p {
-    font-size: 100px;
-    /* font-weight: 700; */
-    color: white;
-    width: 860px;
-    margin: 0 auto;
-    padding-bottom: 60px;
-    font-family: 'Anton', sans-serif;
+  font-size: 100px;
+  /* font-weight: 700; */
+  color: white;
+  width: 860px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  font-family: 'Anton', sans-serif;
 }
 
 /*
@@ -174,29 +162,30 @@ Buttons
 =============================================================
 */
 .btn {
-    /* font-size: 40px; */
-    border: none;
-    padding: 20px;
-    border-radius: 5px;  
-    margin-bottom: 50px;
+  /* font-size: 40px; */
+  border: none;
+  padding: 20px;
+  border-radius: 5px;  
+  margin-right: 3px;
+  margin-bottom: 50px;
     
 }
 
-.btn a {
-    font-size: 20px;
-    padding: 20px;
-    text-decoration: none;
-    color: black;
+.pink-btn { 
+  background-color:#FD7792;
 }
 
-.btn-pink a {
+.btn a {
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.pink-btn a {
     color: white;
 }
 
-.btn-pink {
-    margin-right: 3px;
-    background-color:#FD7792;
-}
 
 /*
 =============================================================
@@ -269,4 +258,9 @@ footer {
 .primary-footer small {
     float: left;
     font-weight: 400;
+}
+
+.nav {
+  /* text-align: right; */
+  float: right;
 }
