@@ -54,6 +54,12 @@ table {
 Custom styles
 =============================================================
 */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
   font-family: 'Balsamiq Sans', cursive;
 }
@@ -65,7 +71,7 @@ footer {
 
 .container {
   margin: 0 auto;
-  width: 1080px;
+  max-width: 1080px;
   /* padding-left: 30px; */
   /* padding-right: 30px; */
 } 
@@ -74,8 +80,12 @@ footer {
   text-decoration: none;
 }
 
-.logo {
+.logo,
+.primary-nav {
   display: inline-block;
+}
+
+.logo {
   /* float: left; */
   font-size: 45px;
   font-weight: 800;
@@ -92,10 +102,9 @@ footer {
   font-weight: 400;
   color: white;
   padding-top: 50px;
-  margin-left: 335px;
+  margin-left: 30%;
   letter-spacing:  .5px;
   text-transform: uppercase;
-  display: inline-block;
 }
 
 h1 {

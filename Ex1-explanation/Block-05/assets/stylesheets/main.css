@@ -74,7 +74,7 @@ Grid
 */
 
 *,
-*:before.
+*:before,
 *:after {
   box-sizing: border-box;
 }
@@ -106,7 +106,7 @@ body {
   letter-spacing:  .5px;
 }
 
-#pink {
+.pink {
   color: #FD7792;
 }
   
