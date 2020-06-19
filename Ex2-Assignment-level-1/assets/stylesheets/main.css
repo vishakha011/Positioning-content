@@ -115,7 +115,7 @@ main {
 }
 
 .col-left {
-    margin-left: 4%;
+    padding-left: 4%;
 }
 
 .col-left,
@@ -125,18 +125,18 @@ main {
 }
 .col-left,
 .col-right {
-    width: 18%;
-    margin-top: 9%;
+    width: 20%;
+    padding-top: 9%;
 }
 
 .col-middle {
-    width: 49%;
+    width: 51%;
     margin-top: 20px;
     margin-bottom: 35px;
 }
 
 .col-right {
-    margin-right: 4%;
+    padding-right: 4%;
     float: right;
 } 
 
