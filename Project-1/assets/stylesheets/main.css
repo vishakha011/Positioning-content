@@ -217,7 +217,7 @@ Hero Section
     width: 60%;
 }
 
-.aside img {
+.main-img {
     width: 660px;
     height: 600px;
     object-fit: cover;
@@ -301,7 +301,7 @@ Section-3
 }
 
 .col-block {
-    width: 800px;
+    width: 750px;
     margin: 2% auto;
     background-color: white;
 }
