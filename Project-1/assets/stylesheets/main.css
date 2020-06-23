@@ -1,0 +1,397 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+=============================================================
+Clearfix
+=============================================================
+*/
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    clear: both;
+}
+/*
+=============================================================
+Grid
+=============================================================
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/*
+=============================================================
+Custom Styles
+=============================================================
+*/
+
+body {
+    font-family: 'Gothic A1', sans-serif;
+   background-color: #4E5266; 
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.padding {
+    padding: 70px 0;
+}
+
+.center-heading {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    color: #434b56;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.center-para {
+    color: rgba(67, 75, 86, 0.5);
+    text-align: center;
+    margin: 10px 0;
+}
+
+/*
+=============================================================
+Header
+=============================================================
+*/
+
+.header {
+    padding: 50px 0 70px 0;
+}
+
+.logo {
+    font-size: 20px;
+    /* font-weight: 600; */
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;   
+    display: inline-block; 
+    padding-right: 7px;
+}
+span {
+    color: rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+    padding-left: 11px;
+}
+
+.nav-menu-item {
+    font-size: 15px;
+    display: inline-block;
+  }
+  
+.nav-menu-item a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+/*
+=============================================================
+Hero Section
+=============================================================
+*/
+
+.col-1-2 {
+    max-width: 40%;
+    /* margin-top: 1.5%; */
+}
+.sub-article {
+    text-align: center;
+    line-height: 1.5;
+    padding: 50px;
+}
+.article-1 {
+    background-color: #4CABB1;       
+}
+
+.article-2 {
+    background-color: #69C7AD;       
+}
+
+.heading {
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    /* margin-bottom: 15px; */
+}
+
+.text {
+    font-size: 20px;
+    color: white;
+    margin: 15px 0 35px 0;
+}
+
+.more {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    
+    border-radius: 25px;
+    padding: 13px 26px;
+    text-transform: uppercase;
+    /* margin: 15px; */
+
+}
+
+.more-bg-1 {
+    background-color: #5AB7BD;
+}
+
+.more-bg-2 {
+    background-color: #79D1B8;
+}
+
+.aside {
+    width: 60%;
+}
+
+.aside img {
+    width: 660px;
+    height: 600px;
+    object-fit: cover;
+}
+
+/*
+=============================================================
+Section-2
+=============================================================
+*/
+
+.media {
+    background-color: white;
+}
+
+.media-icon {
+    text-align: center;
+    margin-top: 6%;
+}
+.media-article {
+    /* padding: 0 65px; */
+    border-right: 1px solid grey;
+}
+
+.col-1-3 {
+    width: 30%;
+    margin: 0 1.5%;
+}
+
+.icon {
+    font-size: 30px;
+    padding: 30px;
+    border: 1px solid rgba(67, 75, 86, 0.5);
+    border-radius: 50%;
+}
+
+.article-heading {
+    font-size: 16px;
+    color: #434b56;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 65px;
+}
+
+.article-para {
+    font-size: 15px;
+    color: rgba(67, 75, 86, 0.5);
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.wrapper {
+    margin: 55px 40px;
+}
+
+.no-border {
+    border: none;
+}
+
+.camera-icon {
+    color: #4CABB1;
+}
+
+.telegram-icon {
+    color: #69C7AD;
+}
+
+.mail-icon {
+    color: #FED586;
+}
+
+/*
+=============================================================
+Section-3
+=============================================================
+*/
+
+.bg-color {
+    padding: 50px;
+    background-color: #FED586;
+}
+
+.col-block {
+    width: 800px;
+    margin: 2% auto;
+    background-color: white;
+}
+
+.section-3-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.section-heading {
+    color: #434b56;
+    text-transform: uppercase;
+    margin: 50px 0 20px;
+}
+
+.section-para {
+    color: rgba(67, 75, 86, 0.5);
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.center-text {
+    text-align: center;
+    padding: 0 80px 20px 80px;
+}
+
+/*
+=============================================================
+Section-4
+=============================================================
+*/
+
+.article-wrapper {
+    margin-top: 50px;
+}
+
+.article-aside {
+    margin: 0 auto;
+    width: 900px;
+    
+    box-shadow: 4px 4px 12px 2px #434b56;
+}
+
+.center {
+    text-align: center;
+    padding: 25px;
+}
+
+.aside-mountain {
+    width: 100%;
+}
+
+.section-4-aside-img {
+    width: 360px;
+    height: 335px;
+}
+
+.purple-more {
+    background-color: #575B72;
+}
+
+/*
+=============================================================
+Footer
+=============================================================
+*/
+
+footer {
+    color: grey;
+}
+
+.contact-icons {
+   
+    text-align: center;
+}
+
+.contact-icon-item {
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.contact-icon-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.small {
+    margin: 25px;
+    font-size: 15px;
+    text-align: center;
+}

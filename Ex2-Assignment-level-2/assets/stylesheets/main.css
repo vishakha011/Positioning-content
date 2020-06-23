@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+=============================================================
+Clearfix
+=============================================================
+*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*
+=============================================================
+Grid
+=============================================================
+*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/*
+=============================================================
+Custom Styles
+=============================================================
+*/
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: #EFEFEF;
+}
+
+h1 {
+  font-size: 45px;
+  /* font-weight: 500; */
+  text-align: center;
+  margin: 17px;
+  letter-spacing: .5px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(34, 27, 27);
+}
+
+main {
+    max-width: 1100px;
+    color: #656565;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.col {
+    margin: 0 1.5%;
+}
+
+.col-left {
+    padding-left: 4%;
+}
+
+.col-left,
+.col-middle {
+    float: left;
+   
+}
+.col-left,
+.col-right {
+    width: 20%;
+    padding-top: 9%;
+}
+
+.col-middle {
+    width: 51%;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.col-right {
+    padding-right: 4%;
+    float: right;
+} 
+
+h2 {
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+img {
+    max-width: 550px;
+    max-height: 450px;
+}
+
+ul li {
+    font-size: 18px;
+    line-height: 25px;
+}
+p {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: ;
+}
+
+.tab-text {
+    margin: 14px 0 14px 50px;
+}
